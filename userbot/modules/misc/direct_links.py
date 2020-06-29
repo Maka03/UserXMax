@@ -10,7 +10,7 @@ import urllib.parse
 import json
 import requests
 
-from subprocess import popen
+from os import popen
 from random import choice
 from bs4 import BeautifulSoup
 from humanize import naturalsize
